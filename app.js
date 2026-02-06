@@ -5,6 +5,7 @@ const template = document.getElementById("simCardTemplate");
 const countLabel = document.getElementById("countLabel");
 
 let simulations = [];
+let publishedRepos = null;
 
 function uniqueTopics(items) {
   return [...new Set(items.map((item) => item.topic))].sort();
@@ -106,6 +107,19 @@ async function loadSimulations() {
 
     const payload = await response.json();
     simulations = Array.isArray(payload) ? payload : [];
+
+    try {
+      const publishedResponse = await fetch("./published-repos.json", { cache: "no-store" });
+      if (publishedResponse.ok) {
+        const publishedPayload = await publishedResponse.json();
+        if (Array.isArray(publishedPayload)) {
+          publishedRepos = new Set(publishedPayload);
+          simulations = simulations.filter((sim) => publishedRepos.has(sim.repo));
+        }
+      }
+    } catch {
+      publishedRepos = null;
+    }
 
     hydrateTopics();
     renderCards();
