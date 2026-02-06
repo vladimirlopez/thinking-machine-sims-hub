@@ -95,7 +95,7 @@
     "description": "Launch Ripple Lab Studio.",
     "repo": "Ripple Tank Sim",
     "localUrl": "../Ripple Tank Sim/src/index.html",
-    "webUrl": "https://Thinking-Experiment-Sims.github.io/ripple-lab-studio/src/index.html",
+    "webUrl": null,
     "repoUrl": "https://github.com/Thinking-Experiment-Sims/ripple-lab-studio"
   },
   {

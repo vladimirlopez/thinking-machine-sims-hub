@@ -187,6 +187,12 @@ function buildRecord(absPath) {
   const repo = inferRepo(relFromSearch);
   const gitRoot = findGitRoot(absPath);
   const repoMeta = getRepoMeta(gitRoot, absPath);
+  let webUrl = repoMeta.webUrl;
+
+  // Known-broken Pages target; prefer repo fallback for this repo.
+  if (repo === 'Ripple Tank Sim') {
+    webUrl = null;
+  }
 
   return {
     title,
@@ -194,7 +200,7 @@ function buildRecord(absPath) {
     description: `Launch ${title}.`,
     repo,
     localUrl: toHubRelative(absPath),
-    webUrl: repoMeta.webUrl,
+    webUrl,
     repoUrl: repoMeta.repoUrl,
   };
 }
