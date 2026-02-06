@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Thinking Experiment | Physics Simulations Hub</title>
+    <meta
+      name="description"
+      content="A single launchpad for physics simulation pages across The Thinking Experiment repositories."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="hero">
+      <p class="kicker">The Thinking Experiment</p>
+      <h1>Physics Simulations Hub</h1>
+      <p class="subtitle">
+        One place to open all simulation pages across your repos.
+      </p>
+      <div class="hero-actions">
+        <input
+          id="searchInput"
+          class="search"
+          type="search"
+          placeholder="Search simulation name, topic, or repo"
+          aria-label="Search simulations"
+        />
+        <select id="topicFilter" class="topic-filter" aria-label="Filter by topic">
+          <option value="all">All topics</option>
+        </select>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section-head">
+        <h2>All Simulations</h2>
+        <p id="countLabel" class="count-label">0 simulations</p>
+      </section>
+
+      <section id="cardGrid" class="card-grid" aria-live="polite"></section>
+
+      <template id="simCardTemplate">
+        <article class="card">
+          <div class="card-top">
+            <p class="topic"></p>
+            <h3></h3>
+            <p class="description"></p>
+          </div>
+          <div class="card-bottom">
+            <p class="repo"></p>
+            <a class="launch" target="_blank" rel="noopener noreferrer">Launch</a>
+          </div>
+        </article>
+      </template>
+    </main>
+
+    <footer class="footer">
+      <p>Built for The Thinking Experiment simulations collection.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

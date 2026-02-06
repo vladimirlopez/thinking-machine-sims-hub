@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Atwood Machine Simulation",
+    "topic": "Mechanics",
+    "description": "Launch Atwood Machine Simulation.",
+    "repo": "Physics Simulations/Atwood Machine",
+    "localUrl": "../Physics Simulations/Atwood Machine/index.html",
+    "webUrl": "https://vladimirlopez.github.io/atwood-machine-simulation/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/atwood-machine-simulation"
+  },
+  {
+    "title": "Electrostatic Charging Simulation",
+    "topic": "Electricity",
+    "description": "Launch Electrostatic Charging Simulation.",
+    "repo": "Physics Simulations/chargingDemo",
+    "localUrl": "../Physics Simulations/chargingDemo/index.html",
+    "webUrl": "https://vladimirlopez.github.io/chargingDemo/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/chargingDemo"
+  },
+  {
+    "title": "Electrostatics Simulation: Charging by Conduction and Induction",
+    "topic": "Electricity",
+    "description": "Launch Electrostatics Simulation: Charging by Conduction and Induction.",
+    "repo": "Physics Simulations/Electrostatics",
+    "localUrl": "../Physics Simulations/Electrostatics/index.html",
+    "webUrl": null,
+    "repoUrl": null
+  },
+  {
+    "title": "Electrostatics Simulation: Conduction vs Induction",
+    "topic": "Electricity",
+    "description": "Launch Electrostatics Simulation: Conduction vs Induction.",
+    "repo": "Electrostatic Charges",
+    "localUrl": "../Electrostatic Charges/index.html",
+    "webUrl": "https://vladimirlopez.github.io/chargingDemo/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/chargingDemo"
+  },
+  {
+    "title": "Interactive Hydrogen Atom Simulation",
+    "topic": "Modern Physics",
+    "description": "Launch Interactive Hydrogen Atom Simulation.",
+    "repo": "Physics Simulations/Hydrogen-Atom-HTML5",
+    "localUrl": "../Physics Simulations/Hydrogen-Atom-HTML5/index.html",
+    "webUrl": "https://vladimirlopez.github.io/Hydrogen-Atom-HTML5/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/Hydrogen-Atom-HTML5"
+  },
+  {
+    "title": "Interactive Projectile Motion Simulation",
+    "topic": "Kinematics",
+    "description": "Launch Interactive Projectile Motion Simulation.",
+    "repo": "Physics Simulations/Projectilesv1",
+    "localUrl": "../Physics Simulations/Projectilesv1/index.html",
+    "webUrl": "https://vladimirlopez.github.io/projectilesv1/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/projectilesv1"
+  },
+  {
+    "title": "Linear Fit",
+    "topic": "Data Analysis",
+    "description": "Launch Linear Fit.",
+    "repo": "Physics Simulations/linearFit",
+    "localUrl": "../Physics Simulations/linearFit/index.html",
+    "webUrl": "https://vladimirlopez.github.io/linearfit/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/linearfit"
+  },
+  {
+    "title": "Parabola Tangent Simulator",
+    "topic": "Calculus",
+    "description": "Launch Parabola Tangent Simulator.",
+    "repo": "Physics Simulations/SlopeTangents",
+    "localUrl": "../Physics Simulations/SlopeTangents/parabola-tangent-simulator/index.html",
+    "webUrl": "https://vladimirlopez.github.io/slopeTangents/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/slopeTangents"
+  },
+  {
+    "title": "Projectile Motion Simulator",
+    "topic": "Kinematics",
+    "description": "Launch Projectile Motion Simulator.",
+    "repo": "Projectiles",
+    "localUrl": "../Projectiles/app.html",
+    "webUrl": "https://vladimirlopez.github.io/Projectiles-Simulation-Copilot-version/app.html",
+    "repoUrl": "https://github.com/vladimirlopez/Projectiles-Simulation-Copilot-version"
+  },
+  {
+    "title": "Quadratic Regression & Tangent Lines",
+    "topic": "Calculus",
+    "description": "Launch Quadratic Regression & Tangent Lines.",
+    "repo": "Physics Simulations/slope_tangents",
+    "localUrl": "../Physics Simulations/slope_tangents/index.html",
+    "webUrl": "https://vladimirlopez.github.io/slope_tangents/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/slope_tangents"
+  },
+  {
+    "title": "Ripple Lab Studio",
+    "topic": "Waves",
+    "description": "Launch Ripple Lab Studio.",
+    "repo": "Ripple Tank Sim",
+    "localUrl": "../Ripple Tank Sim/src/index.html",
+    "webUrl": "https://Thinking-Experiment-Sims.github.io/ripple-lab-studio/src/index.html",
+    "repoUrl": "https://github.com/Thinking-Experiment-Sims/ripple-lab-studio"
+  },
+  {
+    "title": "Rocket Sled - Newton's Laws Simulation",
+    "topic": "Mechanics",
+    "description": "Launch Rocket Sled - Newton's Laws Simulation.",
+    "repo": "Rocket Sled",
+    "localUrl": "../Rocket Sled/index.html",
+    "webUrl": "https://vladimirlopez.github.io/rocket-sled-simulation/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/rocket-sled-simulation"
+  },
+  {
+    "title": "Speed of Sound Lab Simulator",
+    "topic": "Waves",
+    "description": "Launch Speed of Sound Lab Simulator.",
+    "repo": "Speed of Sound",
+    "localUrl": "../Speed of Sound/index.html",
+    "webUrl": "https://vladimirlopez.github.io/speed-of-sound-lab-sim/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/speed-of-sound-lab-sim"
+  },
+  {
+    "title": "Types of Collisions Simulation",
+    "topic": "Mechanics",
+    "description": "Launch Types of Collisions Simulation.",
+    "repo": "Types of Collisions/labCollisions",
+    "localUrl": "../Types of Collisions/labCollisions/collision_simulation.html",
+    "webUrl": "https://vladimirlopez.github.io/labCollisions/collision_simulation.html",
+    "repoUrl": "https://github.com/vladimirlopez/labCollisions"
+  },
+  {
+    "title": "Vector Calculus Visualizer",
+    "topic": "Calculus",
+    "description": "Launch Vector Calculus Visualizer.",
+    "repo": "Vector Calculus",
+    "localUrl": "../Vector Calculus/index.html",
+    "webUrl": null,
+    "repoUrl": null
+  },
+  {
+    "title": "Visualizing the Principle of Least Action",
+    "topic": "Optics",
+    "description": "Launch Visualizing the Principle of Least Action.",
+    "repo": "Action Principle",
+    "localUrl": "../Action Principle/index.html",
+    "webUrl": "https://vladimirlopez.github.io/Action-Principle/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/Action-Principle"
+  }
+]
