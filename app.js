@@ -61,9 +61,26 @@ function renderCards() {
 
     const link = node.querySelector(".launch");
     const hosted = window.location.protocol.startsWith("http");
-    const preferredUrl = hosted && sim.webUrl ? sim.webUrl : sim.localUrl;
-    link.href = preferredUrl;
-    link.textContent = "Launch";
+
+    if (hosted) {
+      if (sim.webUrl) {
+        link.href = sim.webUrl;
+        link.textContent = "Launch";
+      } else if (sim.repoUrl) {
+        link.href = sim.repoUrl;
+        link.textContent = "Open Repo";
+      } else {
+        link.removeAttribute("href");
+        link.textContent = "Local Only";
+        link.setAttribute("aria-disabled", "true");
+        link.style.pointerEvents = "none";
+        link.style.opacity = "0.6";
+      }
+    } else {
+      link.href = sim.localUrl;
+      link.textContent = "Launch";
+    }
+
     link.setAttribute("aria-label", `Open ${sim.title}`);
 
     node.style.animationDelay = `${index * 45}ms`;
