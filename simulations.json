@@ -99,6 +99,15 @@
     "repoUrl": "https://github.com/Thinking-Experiment-Sims/ripple-lab-studio"
   },
   {
+    "title": "Refraction Lab Simulation",
+    "topic": "Optics",
+    "description": "Launch Refraction Lab Simulation.",
+    "repo": "Refraction Lab Sim",
+    "localUrl": "../Refraction Lab Sim/index.html",
+    "webUrl": "https://vladimirlopez.github.io/refraction-lab-sim/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/refraction-lab-sim"
+  },
+  {
     "title": "Rocket Sled - Newton's Laws Simulation",
     "topic": "Mechanics",
     "description": "Launch Rocket Sled - Newton's Laws Simulation.",

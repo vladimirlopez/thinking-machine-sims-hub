@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Theme Style Reference</title>
+    <link rel="stylesheet" href="./dark-refraction-theme.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="hero shell">
+      <p class="kicker">Thinking Experiment</p>
+      <h1>Dark Simulation Style (Refraction)</h1>
+      <p class="subtitle">Reusable style reference for new dark-mode simulations.</p>
+    </header>
+
+    <main class="shell app-layout">
+      <section class="panel controls-panel">
+        <h2>Controls</h2>
+        <div class="controls-grid">
+          <label>
+            Parameter
+            <select>
+              <option>Option A</option>
+              <option>Option B</option>
+            </select>
+          </label>
+          <label>
+            Trial
+            <select>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </label>
+        </div>
+        <div class="button-row">
+          <button type="button">Primary</button>
+          <button type="button" class="ghost">Secondary</button>
+        </div>
+      </section>
+
+      <section class="panel visual-panel">
+        <h2>Main View</h2>
+        <svg class="scene" viewBox="0 0 900 560" aria-label="Theme preview"></svg>
+      </section>
+
+      <section class="panel metrics-panel">
+        <h2>Readouts</h2>
+        <p class="info-line">Use this panel for key metrics and status.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg-950: #090b0f;
+  --bg-900: #11141b;
+  --bg-800: #1e2430;
+  --text-100: #eef2f9;
+  --text-300: #c9d1df;
+  --text-500: #a9b2c3;
+  --gold-500: #c8a24a;
+  --gold-400: #d8b767;
+  --gold-300: #e5cc8f;
+  --surface: rgba(17, 20, 27, 0.93);
+  --surface-alt: rgba(30, 36, 48, 0.9);
+  --border: rgba(229, 204, 143, 0.24);
+  --shadow-lg: 0 16px 30px rgba(0, 0, 0, 0.34);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+
+body {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--text-100);
+  background: radial-gradient(circle at 12% 9%, #222b3c 0%, #141925 40%, #090b0f 100%);
+  line-height: 1.45;
+}
+
+.bg-grid {
+  position: fixed; inset: 0; z-index: -1;
+  background-image: linear-gradient(rgba(229, 204, 143, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(229, 204, 143, 0.06) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(circle at center, black 42%, transparent 95%);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: "Cormorant Garamond", "Palatino Linotype", serif;
+}
+
+.shell { width: min(1240px, calc(100% - 2rem)); margin-inline: auto; }
+
+.hero {
+  margin-top: 1.25rem;
+  border: 1px solid var(--border);
+  border-left: 8px solid var(--gold-500);
+  border-radius: 14px;
+  padding: 1.2rem 1.4rem;
+  background: linear-gradient(130deg, rgba(20, 24, 33, 0.95), rgba(10, 12, 18, 0.95));
+  box-shadow: var(--shadow-lg);
+}
+
+.kicker {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold-400);
+  font-weight: 700;
+}
+
+.hero h1 { font-size: clamp(1.8rem, 2.2vw, 2.8rem); color: #fff6df; margin-top: 0.3rem; }
+.subtitle { margin: 0.3rem 0 0; color: var(--text-300); max-width: 76ch; }
+
+.app-layout {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.panel {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.full { grid-column: span 12; }
+.wide { grid-column: span 8; }
+.narrow { grid-column: span 4; }
+
+.controls-grid {
+  margin-top: 0.6rem;
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.92rem;
+  color: var(--text-300);
+}
+
+input, select, button, textarea { font: inherit; }
+
+input, select, textarea {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-alt);
+  color: var(--text-100);
+  padding: 0.56rem 0.64rem;
+}
+
+button {
+  border: 1px solid var(--gold-500);
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--gold-500), var(--gold-400));
+  color: #2c1d06;
+  font-weight: 700;
+  padding: 0.58rem 0.82rem;
+  cursor: pointer;
+}
+
+button.ghost { background: rgba(200, 162, 74, 0.1); color: var(--text-100); }
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--gold-400);
+  outline-offset: 2px;
+}
+
+.button-row {
+  margin-top: 0.72rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.hint, .info-line { margin: 0.62rem 0 0; color: var(--text-300); font-size: 0.92rem; }
+
+.sim-view {
+  margin-top: 0.6rem;
+  width: 100%;
+  min-height: 240px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: radial-gradient(circle at 12% 8%, rgba(217, 183, 103, 0.12), transparent 38%),
+    linear-gradient(180deg, rgba(12, 16, 22, 0.98), rgba(9, 11, 15, 0.98));
+}
+
+@media (max-width: 1080px) {
+  .wide, .narrow { grid-column: span 12; }
+  .controls-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .shell { width: min(1240px, calc(100% - 1rem)); }
+  .controls-grid { grid-template-columns: 1fr; }
+}

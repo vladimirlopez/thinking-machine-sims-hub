@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulation Title</title>
+    <meta name="description" content="Interactive physics simulation." />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://vladimirlopez.github.io/the-thinking-experiment/assets/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://vladimirlopez.github.io/the-thinking-experiment/assets/favicon-16.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="hero shell">
+      <p class="kicker">The Thinking Experiment</p>
+      <h1>Simulation Title</h1>
+      <p class="subtitle">One-line learning objective and interaction guidance.</p>
+    </header>
+
+    <main class="shell app-layout">
+      <section class="panel full">
+        <h2>Controls</h2>
+        <div class="controls-grid">
+          <label>
+            Parameter A
+            <input type="range" min="0" max="10" value="5" />
+          </label>
+          <label>
+            Parameter B
+            <select>
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+          </label>
+        </div>
+        <div class="button-row">
+          <button type="button">Run</button>
+          <button type="button" class="ghost">Reset</button>
+        </div>
+      </section>
+
+      <section class="panel wide">
+        <h2>Main Visualization</h2>
+        <div class="sim-view" aria-label="Simulation view"></div>
+      </section>
+
+      <section class="panel narrow">
+        <h2>Live Data</h2>
+        <p class="info-line">Use this panel for readouts, checks, and guidance.</p>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

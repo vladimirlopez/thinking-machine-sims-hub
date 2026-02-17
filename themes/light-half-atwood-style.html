@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Theme Style Reference</title>
+    <link rel="stylesheet" href="./light-half-atwood-theme.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero card">
+        <p class="eyebrow">Physics Lab Practice</p>
+        <h1>Light Simulation Style (Half Atwood)</h1>
+        <p>Reusable style reference for new light-mode simulations.</p>
+      </header>
+
+      <main class="layout">
+        <section class="card controls">
+          <h2>Lab Controls</h2>
+          <div class="control-grid">
+            <label>
+              Scenario
+              <select>
+                <option>Option A</option>
+                <option>Option B</option>
+              </select>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" />
+              Realistic noise
+            </label>
+          </div>
+          <div class="action-row">
+            <button class="primary">Run</button>
+            <button>Add Trial</button>
+            <button>Export</button>
+          </div>
+          <p class="status" data-tone="ok">Status message appears here.</p>
+        </section>
+
+        <section class="card graph-card">
+          <h2>Graph Area</h2>
+          <canvas class="graph" width="960" height="360"></canvas>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
