@@ -9,6 +9,15 @@
     "repoUrl": "https://github.com/vladimirlopez/atwood-machine-simulation"
   },
   {
+    "title": "Convex Lens Lab Simulation",
+    "topic": "Optics",
+    "description": "Launch Convex Lens Lab Simulation.",
+    "repo": "Convex Lens Lab Sim",
+    "localUrl": "../Convex Lens Lab Sim/index.html",
+    "webUrl": null,
+    "repoUrl": null
+  },
+  {
     "title": "Electrostatic Charging Simulation",
     "topic": "Electricity",
     "description": "Launch Electrostatic Charging Simulation.",
@@ -34,6 +43,15 @@
     "localUrl": "../Electrostatic Charges/index.html",
     "webUrl": "https://vladimirlopez.github.io/chargingDemo/index.html",
     "repoUrl": "https://github.com/vladimirlopez/chargingDemo"
+  },
+  {
+    "title": "Image Location in Mirrors and Lenses Lab",
+    "topic": "Optics",
+    "description": "Launch Image Location in Mirrors and Lenses Lab.",
+    "repo": "image-location-mirrors-lenses-sim",
+    "localUrl": "../image-location-mirrors-lenses-sim/index.html",
+    "webUrl": "https://vladimirlopez.github.io/image-location-mirrors-lenses-sim/index.html",
+    "repoUrl": "https://github.com/vladimirlopez/image-location-mirrors-lenses-sim"
   },
   {
     "title": "Interactive Hydrogen Atom Simulation",
@@ -90,15 +108,6 @@
     "repoUrl": "https://github.com/vladimirlopez/slope_tangents"
   },
   {
-    "title": "Ripple Lab Studio",
-    "topic": "Waves",
-    "description": "Launch Ripple Lab Studio.",
-    "repo": "Ripple Tank Sim",
-    "localUrl": "../Ripple Tank Sim/src/index.html",
-    "webUrl": null,
-    "repoUrl": "https://github.com/Thinking-Experiment-Sims/ripple-lab-studio"
-  },
-  {
     "title": "Refraction Lab Simulation",
     "topic": "Optics",
     "description": "Launch Refraction Lab Simulation.",
@@ -106,6 +115,15 @@
     "localUrl": "../Refraction Lab Sim/index.html",
     "webUrl": "https://vladimirlopez.github.io/refraction-lab-sim/index.html",
     "repoUrl": "https://github.com/vladimirlopez/refraction-lab-sim"
+  },
+  {
+    "title": "Ripple Lab Studio",
+    "topic": "Waves",
+    "description": "Launch Ripple Lab Studio.",
+    "repo": "Ripple Tank Sim",
+    "localUrl": "../Ripple Tank Sim/src/index.html",
+    "webUrl": null,
+    "repoUrl": "https://github.com/Thinking-Experiment-Sims/ripple-lab-studio"
   },
   {
     "title": "Rocket Sled - Newton's Laws Simulation",
