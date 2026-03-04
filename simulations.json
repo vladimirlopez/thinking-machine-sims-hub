@@ -108,6 +108,15 @@
     "repoUrl": "https://github.com/vladimirlopez/slope_tangents"
   },
   {
+    "title": "Rainbow and Prism Refraction Lab",
+    "topic": "Optics",
+    "description": "Launch Rainbow and Prism Refraction Lab.",
+    "repo": "rainbow-prism-refraction-lab",
+    "localUrl": "../rainbow-refraction-simulation/index.html",
+    "webUrl": "https://thinking-experiment-sims.github.io/rainbow-prism-refraction-lab/",
+    "repoUrl": "https://github.com/Thinking-Experiment-Sims/rainbow-prism-refraction-lab"
+  },
+  {
     "title": "Refraction Lab Simulation",
     "topic": "Optics",
     "description": "Launch Refraction Lab Simulation.",
