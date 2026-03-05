@@ -18,3 +18,19 @@ For all new simulation/frontend projects in this workspace, use the stored reusa
 ## Override rule
 
 Only depart from these themes if the user explicitly asks for a different palette, typography, or visual direction.
+
+## Additional persistent style requirements
+
+Apply these by default for inquiry simulations unless explicitly overridden:
+
+1. Put the theme toggle in the title/hero card at the top-right (not inside the main control stack).
+2. Light mode must follow the Half-Atwood light style language:
+- card-like white panels
+- teal left vertical accent on hero card
+- soft blue/warm background gradients
+3. When switching to light mode, also switch simulation canvas visuals (track and cart colors), not only page/panel colors.
+4. Velocity graph must expose cart velocities directly (live labels/readout), so values are visible without requiring only manual probing.
+5. Explosion mode must show a pre-release state before split, then release/split event; do not trigger explosion instantly at `t=0` by default.
+6. Prevent title-card clipping and left-corner misalignment:
+- avoid horizontal overflow
+- keep hero card fully visible at all breakpoints.
