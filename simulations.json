@@ -156,10 +156,10 @@
     "title": "Types of Collisions Simulation",
     "topic": "Mechanics",
     "description": "Launch Types of Collisions Simulation.",
-    "repo": "Types of Collisions/labCollisions",
-    "localUrl": "../Types of Collisions/labCollisions/collision_simulation.html",
-    "webUrl": "https://vladimirlopez.github.io/labCollisions/collision_simulation.html",
-    "repoUrl": "https://github.com/vladimirlopez/labCollisions"
+    "repo": "types-of-collisions-inquiry-sim",
+    "localUrl": "../types-of-collisions-sim/index.html",
+    "webUrl": "https://vladimirlopez.github.io/types-of-collisions-inquiry-sim/",
+    "repoUrl": "https://github.com/vladimirlopez/types-of-collisions-inquiry-sim"
   },
   {
     "title": "Vector Calculus Visualizer",
