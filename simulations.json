@@ -45,6 +45,15 @@
     "repoUrl": "https://github.com/vladimirlopez/chargingDemo"
   },
   {
+    "title": "Coulomb's Law Inquiry Lab",
+    "topic": "Electricity",
+    "description": "Launch Coulomb's Law Inquiry Lab.",
+    "repo": "coulombs-law-inquiry-sim",
+    "localUrl": "../coulombs-law-inquiry-sim/index.html",
+    "webUrl": "https://vladimirlopez.github.io/coulombs-law-inquiry-sim/",
+    "repoUrl": "https://github.com/vladimirlopez/coulombs-law-inquiry-sim"
+  },
+  {
     "title": "Image Location in Mirrors and Lenses Lab",
     "topic": "Optics",
     "description": "Launch Image Location in Mirrors and Lenses Lab.",
